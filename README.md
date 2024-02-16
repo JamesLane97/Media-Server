@@ -1,12 +1,9 @@
-
-  
-
 # Raspberry Pi 400 Media Server
 
 ## Current Stack
 
 This project uses images and info from [LinuxServer.io](https://docs.linuxserver.io/)
-- [Dockge](https://dockge.kuma.pet/) - A platform for hosting Docker containers with an emphasis on simplicity and ease of use.
+- [Dockge](https://dockge.kuma.pet/) - A platform for  Docker containers with an emphasis on simplicity and ease of use.
 
 - [Homarr](https://homarr.dev/) - A customizable dashboard for monitoring and managing your applications, services, and tools in one place.
 
@@ -14,15 +11,18 @@ This project uses images and info from [LinuxServer.io](https://docs.linuxserver
 
 - [Plex](https://www.plex.tv/) - A media server software solution that allows users to stream their media collection across various devices.
 
-- [Prowlarr](https://prowlarr.com/) - A tool for managing and searching for content on Usenet indexers and torrent trackers.
+- [Prowlarr](https://prowlarr.com/) - A tool for managing and searching for content on Usenet indexers and/or torrent trackers.
 
-- [Radarr](https://radarr.video/) - A movie collection management tool that automatically downloads movies via Usenet and BitTorrent.
+- [Radarr](https://radarr.video/) - A movie collection management tool that automatically downloads movies via Usenet and/or BitTorrent.
 
-- [Sonarr](https://sonarr.tv/) - A TV series management tool that automatically downloads episodes via Usenet and BitTorrent.
+- [Sonarr](https://sonarr.tv/) - A TV series management tool that automatically downloads episodes via Usenet and/or BitTorrent.
 
 - [SABnzbd](https://sabnzbd.org/) - A Usenet client for downloading files from Usenet newsgroups.
 
-- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - AdGuard Home is a network-wide software for blocking ads, trackers, and malicious websites, offering DNS filtering capabilities to enhance privacy and security on local networks.
+- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - AdGuard Home is a network-wide service for blocking ads, trackers, and malicious websites, offering DNS filtering capabilities to enhance privacy and security on local networks.
+
+- [Dash.](https://getdashdot.com/) - A simple yet beautiful monitoring service for machine resources, integrates well with our choice of server dashboard.
+
 
 
 Instead of utilising torrents for downloads, this project make use of newsgroups (Usenet). Tested using [NZBGeek](https://nzbgeek.info/) and [Newshosting](https://www.newshosting.com/).
@@ -47,18 +47,22 @@ Instead of utilising torrents for downloads, this project make use of newsgroups
 
 ## Service Setup
 
+## Dockge (port 5501)
+
 ### Homarr (port 7575)
 
-### Prowlarr (port 9696)
+### SABnzbd (port 8080)
 
 ### Radarr (port 7878)
 
 ### Sonarr (port 8989)
 
-### SABnzbd (port 8080)
-
-### Plex (port 32400)
+### Prowlarr (port 9696)
 
 ### OverSeer (port 5055)
 
+### Plex (port 32400)
+
 ### AdGuardHome (port 80 for webpanel)
+
+### Dash (port 3001)
