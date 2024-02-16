@@ -22,7 +22,7 @@ This project uses images and info from [LinuxServer.io](https://docs.linuxserver
 
 - [SABnzbd](https://sabnzbd.org/) - A Usenet client for downloading files from Usenet newsgroups.
 
-- [AdGuardHome] (https://github.com/AdguardTeam/AdGuardHome) - AdGuard Home is a network-wide software for blocking ads, trackers, and malicious websites, offering DNS filtering capabilities to enhance privacy and security on local networks.
+- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - AdGuard Home is a network-wide software for blocking ads, trackers, and malicious websites, offering DNS filtering capabilities to enhance privacy and security on local networks.
 
 
 Instead of utilising torrents for downloads, this project make use of newsgroups (Usenet). Tested using [NZBGeek](https://nzbgeek.info/) and [Newshosting](https://www.newshosting.com/).
