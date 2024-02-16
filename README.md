@@ -46,8 +46,16 @@ Instead of utilising torrents for downloads, this project make use of newsgroups
 ## Service Setup
 
 ### Heimdall
+Port 81
 ### Prowlarr
-### Radarr & Sonarr
+Port 9696
+### Radarr
+Port 7878
+### Sonarr
+Port 8989
 ### SABnzbd
+Port 8080
 ### Plex
+Port 32400
 ### OverSeer
+Port 5055
