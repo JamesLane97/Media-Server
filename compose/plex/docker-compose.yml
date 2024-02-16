@@ -11,7 +11,7 @@ services:
       - VERSION=docker
       - PLEX_CLAIM= #optional
     volumes:
-      - /home/james/server/configs/plex:/config
-      - /home/james/server/media/tv:/tv
-      - /home/james/server/media/movies:/movies
+      - ./config:/config
+      - ../../media/tv:/tv
+      - ../../media/movies:/movies
     restart: unless-stopped
