@@ -22,6 +22,8 @@ This project uses images and info from [LinuxServer.io](https://docs.linuxserver
 
 - [SABnzbd](https://sabnzbd.org/) - A Usenet client for downloading files from Usenet newsgroups.
 
+- [AdGuardHome] (https://github.com/AdguardTeam/AdGuardHome) - AdGuard Home is a network-wide software for blocking ads, trackers, and malicious websites, offering DNS filtering capabilities to enhance privacy and security on local networks.
+
 
 Instead of utilising torrents for downloads, this project make use of newsgroups (Usenet). Tested using [NZBGeek](https://nzbgeek.info/) and [Newshosting](https://www.newshosting.com/).
 
@@ -45,17 +47,18 @@ Instead of utilising torrents for downloads, this project make use of newsgroups
 
 ## Service Setup
 
-### Heimdall
-Port 81
-### Prowlarr
-Port 9696
-### Radarr
-Port 7878
-### Sonarr
-Port 8989
-### SABnzbd
-Port 8080
-### Plex
-Port 32400
-### OverSeer
-Port 5055
+### Heimdall (port 81)
+
+### Prowlarr (port 9696)
+
+### Radarr (port 7878)
+
+### Sonarr (port 8989)
+
+### SABnzbd (port 8080)
+
+### Plex (port 32400)
+
+### OverSeer (port 5055)
+
+### AdGuardHome (port 80 for webpanel)

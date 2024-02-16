@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  adguardhome:
+    container_name: adguardhome
+    restart: unless-stopped
+    image: adguard/adguardhome
+    volumes:
+      - ./work:/work
+      - ./config:/config
+    network_mode: host
