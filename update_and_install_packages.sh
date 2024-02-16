@@ -4,7 +4,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # Install required packages
-sudo apt install -y apt-transport-https ca-certificates curl gnupg lsb-release
+sudo apt install -y apt-transport-https ca-certificates curl gnupg lsb-release git
 
 # Add Docker's official GPG key
 sudo apt-get install -y ca-certificates curl
