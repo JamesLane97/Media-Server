@@ -25,7 +25,7 @@ sudo docker run hello-world
 echo "Docker & required packages installed"
 
 # Create directories
-mkdir -p media/{movie,tv} data/{downloads/incomplete} compose/{heimdall,overseerr,plex,prowlarr,radarr,sabnzbd,sonarr}/config compose/adguard/{work,config}
+mkdir -p media/{movie,tv} data/{downloads/incomplete} compose/{overseerr,plex,prowlarr,radarr,sabnzbd,sonarr}/config compose/adguard/{work,config} compose/homarr/{config,data,icons}
 
 # Verify creation
 echo "Directories created:"

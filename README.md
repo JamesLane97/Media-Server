@@ -8,7 +8,7 @@
 This project uses images and info from [LinuxServer.io](https://docs.linuxserver.io/)
 - [Dockge](https://dockge.kuma.pet/) - A platform for hosting Docker containers with an emphasis on simplicity and ease of use.
 
-- [Heimdall](https://heimdall.site/) - A customizable dashboard for monitoring and managing your applications, services, and tools in one place.
+- [Homarr](https://homarr.dev/) - A customizable dashboard for monitoring and managing your applications, services, and tools in one place.
 
 - [Overseerr](https://overseerr.dev/) - A request management and media discovery tool for Plex, Emby, and Jellyfin, allowing users to request new content.
 
@@ -47,7 +47,7 @@ Instead of utilising torrents for downloads, this project make use of newsgroups
 
 ## Service Setup
 
-### Heimdall (port 81)
+### Homarr (port 7575)
 
 ### Prowlarr (port 9696)
 
