@@ -23,3 +23,10 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 sudo docker run hello-world
 
 echo "Docker & required packages installed"
+
+# Create directories
+mkdir -p media/{movie,tv} data/{downloads/incomplete} compose/{heimdall,overseerr,plex,prowlarr,radarr,sabnzbd,sonarr}/config
+
+# Verify creation
+echo "Directories created:"
+tree -L 3 media data compose
